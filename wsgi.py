@@ -24,7 +24,7 @@ def user(username=None):
     if not username:
         return redirect(url_for('index'))
     return render_template('user.html', username=username)    
+"""
 
 if __name__ == "__main__":
     application.run()
-"""
